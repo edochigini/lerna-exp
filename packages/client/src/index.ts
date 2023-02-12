@@ -1,6 +1,7 @@
-import {pippo} from "@server/server";
+import {echo} from "@server/server";
 
+let runNumber = 0;
 setInterval(() =>
 {
-    pippo();
+    echo("Run number: " + runNumber ++);
 }, 2000);

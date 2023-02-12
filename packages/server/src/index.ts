@@ -1,4 +1,4 @@
-export function pippo()
+export function echo(word: string)
 {
-    console.log("ciao");
+    console.log(word);
 }

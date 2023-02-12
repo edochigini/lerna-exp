@@ -1,1 +1,1 @@
-export declare function pippo(): void;
+export declare function echo(word: string): void;
