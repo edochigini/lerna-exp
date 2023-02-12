@@ -1,0 +1,1 @@
+# `Simple demo to showcase how to use lerna to build a client package using services from a server package`
