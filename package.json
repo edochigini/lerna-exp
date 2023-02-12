@@ -9,6 +9,7 @@
     "lerna": "^6.4.1"
   },"scripts": {
     "start": "node packages/client/lib/index.js",
-    "preinstall": "npx only-allow pnpm"
+    "preinstall": "npx only-allow pnpm",
+    "build": "lerna run tsc"
   }
 }
